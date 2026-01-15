@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bookmark Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#eaf3f1]">
+    <div class="flex min-h-screen">
+      <aside class="w-64 bg-white p-6">
+        <h1 class="font-bold text-lg mb-6"> Bookmark Manager</h1>
+
+        <nav class="space-y-3 mb-6">
+          <div class="bg-emerald-100 p-2 rounded"> Home</div>
+          <div class="p-2 text-gray-600"> Archived</div>
+        </nav>
+
+        <h2 class="text-sm text-gray-400 mb-2">TAGS</h2>
+        <div class="space-y-2 text-gray-600 text-sm">
+          <p>AI</p>
+          <p>CSS</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+          <p>Framework</p>
+          <p>Learning</p>
+        </div>
+      </aside>
+
+      <all class="flex-1 p-8">
+        <div class="flex justify-between items-center mb-8">
+          <input
+            type="text"
+            placeholder="Search by title..."
+            class="border rounded-lg px-4 py-2 w-72"
+          />
+
+          <button class="bg-emerald-700 text-white px-4 py-2 rounded-lg">
+            + Add Bookmark
+          </button>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">All bookmarks</h2>
+
+        <div class="grid grid-cols-3 gap-6">
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">Frontend Mentor</h3>
+            <p class="text-sm text-gray-500 mb-3">frontendmentor.io</p>
+            <p class="text-sm text-gray-600 mb-4">
+              Improve your front-end coding skills by building real projects.
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">Practice</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">Learning</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">MDN Web Docs</h3>
+            <p class="text-sm text-gray-500 mb-3">developer.mozilla.org</p>
+            <p class="text-sm text-gray-600 mb-4">
+              Resources for developers, by developers.
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">HTML</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">CSS</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">Tailwind CSS</h3>
+            <p class="text-sm text-gray-500 mb-3">tailwindcss.com</p>
+            <p class="text-sm text-gray-600 mb-4">
+              Utility-first CSS framework.
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">CSS</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">Framework</span>
+            </div>
+          </div>
+            <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">React Docs</h3>
+            <p class="text-sm text-gray-500 mb-3">tailwindcss.com</p>
+            <p class="text-sm text-gray-600 mb-4">
+            The libary for web and native user interfaces.
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">js</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">Framework</span>
+            </div>
+
+          </div>
+            <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">Web Dev</h3>
+            <p class="text-sm text-gray-500 mb-3">tailwindcss.com</p>
+            <p class="text-sm text-gray-600 mb-4">
+            Guidance to build modern web experiencethat work on any browser
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">Learning</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">Tips</span>
+            </div>
+            
+          </div>
+              <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-bold mb-1">freeCodeCamp</h3>
+            <p class="text-sm text-gray-500 mb-3">tailwindcss.com</p>
+            <p class="text-sm text-gray-600 mb-4">
+   A utility-first CSS framework.
+            </p>
+            <div class="flex gap-2 text-xs">
+              <span class="bg-gray-100 px-2 py-1 rounded">Tools</span>
+              <span class="bg-gray-100 px-2 py-1 rounded">Framwork</span>
+            </div>
+            
+          </div>
+        </div>
+    </main>
+    </div>
+  </body>
+</html>
